@@ -14,4 +14,3 @@ protonmail
 telegram-desktop-bin
 teamviewer
 brave-bin
-qbittorrent-git
