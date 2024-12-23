@@ -1,0 +1,16 @@
+gromit-mpx
+android-ndk
+android-studio
+pandoc-bin
+onlyoffice-bin
+android-file-transfer-git
+pcmanfm-git
+btop-git
+teams
+visual-studio-code-bin
+speedtest-cli-git
+proton-pass
+protonmail
+telegram-desktop-bin
+teamviewer
+brave-bin
