@@ -132,7 +132,7 @@ client.background       #16161e
 exec_always --no-startup-id picom -b
 
 # Wallpaper
-exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/.wallpaper1.png" --bg-fill "$HOME/.wallpaper2.png"
+exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/.wallpaper.jpg" --bg-fill "$HOME/.wallpaper1.png"
 
 # -------------------------- SHORTCUTS --------------------------
 
@@ -172,7 +172,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 
 # Displays
-exec_always --no-startup-id xrandr --output DP-2 --auto --primary
-exec_always --no-startup-id xrandr --output HDMI-1 --auto --pos 1920x-600 --rotate left
+exec_always --no-startup-id xrandr --output DP-1 --auto --left-of DVI-I-1
+exec_always --no-startup-id xrandr --output DVI-I-1 --auto --primary
 #exec_always --no-startup-id xrandr --output eDP-1 --auto --primary
 #exec_always --no-startup-id xrandr --output HDMI-1 --auto --same-as eDP-1 --mode 1920x1080
