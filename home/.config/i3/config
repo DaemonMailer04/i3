@@ -42,6 +42,10 @@ bindsym $alt+j resize shrink height 5 px or 5 ppt
 bindsym $alt+h resize shrink width 5 px or 5 ppt
 bindsym $alt+l resize grow width 5 px or 5 ppt
 
+#Gaps
+gaps inner 5
+gaps outer 5
+
 # Fullscreen
 bindsym $mod+f fullscreen toggle
 
@@ -136,6 +140,7 @@ exec_always --no-startup-id feh --no-fehbg --bg-fill "$HOME/.wallpaper.jpg" --bg
 
 # -------------------------- SHORTCUTS --------------------------
 
+
 # Reload
 bindsym $mod+Shift+r restart
 
@@ -143,14 +148,19 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Return exec --no-startup-id alacritty
 
 # Browser
-bindsym $mod+b exec --no-startup-id google-chrome-stable
+bindsym $mod+b exec --no-startup-id firefox
+
+#Editor
+bindsym $mod+e exec --no-startup-id alacritty -e nvim
+
+#VSC
+bindsym $mod+c exec --no-startup-id code
 
 # Screenshot
 bindsym Print exec --no-startup-id maim --hidecursor --select | xclip -selection clipboard -t image/png
 
 # Annotation
 exec_always --no-startup-id gromit-mpx
-
 # -------------------------- PERIPHERALS --------------------------
 
 # Keyboard
