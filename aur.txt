@@ -10,7 +10,7 @@ teams
 visual-studio-code-bin
 speedtest-cli-git
 proton-pass
-protonmail
+proton-mail
 telegram-desktop-bin
 teamviewer
 brave-bin
